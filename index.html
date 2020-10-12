@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Bushou Infinity</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>BuShou</h1>
+                <div id="infinite"></div>
+            </div>
+            <p>Infinitely practise writing 214 Kangxi Radicals</p>
+        </header>
+        <main class="container">
+            <div id="banner"></div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" id="character">
+                    <line x1="0" y1="0" x2="500" y2="500" stroke="#DDD" />
+                    <line x1="500" y1="0" x2="0" y2="500" stroke="#DDD" />
+                    <line x1="250" y1="0" x2="250" y2="500" stroke="#DDD" />
+                    <line x1="0" y1="250" x2="500" y2="250" stroke="#DDD" />
+                </svg>
+                <button><img src="eye-regular.svg" alt="Eye"></button>
+            </div>
+            <div id="detail">
+                <h2 id="meaning"></h2>
+                <p id="no"></p>
+                <p id="count"></p>
+                <p id="freq"></p>
+                <p id="pinyin"></p>
+                <p id="note"></p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;Copyright 2020 by <a href="https://github.com/tracy2811">Trang Nguyen</a>. All Rights Reserved.</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+
+</html>
