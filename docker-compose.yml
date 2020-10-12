@@ -1,0 +1,18 @@
+version: "3"
+services:
+  web:
+    image: tracy2811/bushouinfinity:latest
+    deploy:
+      replicas: 15
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.15"
+          memory: 50M
+    ports:
+      - "80:80"
+    networks:
+      - webnet
+networks:
+  webnet:

@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+#infinite {
+  height: 100px;
+}
+
+header {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 0.6rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+header > p {
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+}
+
+h2, p {
+  padding-bottom: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+}
+
+#banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#character {
+  height: 500px;
+  width: 500px;
+  box-sizing: border-box;
+  border: 10px solid #eee;
+  margin: auto;
+}
+
+button {
+  border: none;
+  background: none;
+  display: block;
+  margin: auto;
+}
+
+button>img {
+  height: 30px;
+}
+
+#radical {
+  width: 500px;
+  margin-left: 0;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#org {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#org img {
+  width: 60px;
+  height: 60px;
+}
+
+#detail {
+  max-width: 500px;
+  max-height: 500px;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 20px;
+  align-self: start;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  font-size: 14px;
+}
